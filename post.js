@@ -70,6 +70,11 @@ async function postForVenue(v) {
   };
   if (img) post.media = [{ mediaFormat: 'PHOTO', sourceUrl: img.url }];
 
+  if (process.env.DRY_RUN) {
+    console.log(`[${v.key}] 🧪DRY_RUN 選択 [${pick.id}] type=${pick.type} theme=${pick.theme} CTA=${ctaUrl} 画像=${img ? img.rel : 'なし'}`);
+    console.log(`    ${pick.title}`);
+    return;
+  }
   const { token } = await client.getAccessToken();
   const url = `https://mybusiness.googleapis.com/v4/${v.locationParent}/localPosts`;
   const res = await fetch(url, {
