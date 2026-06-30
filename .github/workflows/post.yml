@@ -1,0 +1,44 @@
+name: GBP 5会場 自動投稿
+
+on:
+  schedule:
+    # GitHub内蔵cronは不安定なので主トリガーは外部(cron-job.org)。これは保険。UTC・月木10:13/11:13 JST。
+    - cron: "13 1 * * 1,4"
+    - cron: "13 2 * * 1,4"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gbp-meo-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install --no-audit --no-fund
+      - name: 全会場へ投稿
+        env:
+          GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          IMAGE_BASE_URL: ${{ vars.IMAGE_BASE_URL }}
+        run: node post.js
+      - name: 履歴をコミット
+        if: always()
+        run: |
+          git config user.name "gbp-auto-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet history/; then
+            git add history/
+            git commit -m "chore: 投稿履歴を更新 [skip ci]"
+            git push
+          else
+            echo "履歴に変更なし"
+          fi

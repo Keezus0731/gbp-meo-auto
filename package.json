@@ -1,0 +1,10 @@
+{
+  "name": "gbp-meo-auto",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "GBP 5会場 月木自動投稿（設定駆動マルチ会場・MEOバンク）",
+  "dependencies": {
+    "google-auth-library": "^9.0.0"
+  }
+}
