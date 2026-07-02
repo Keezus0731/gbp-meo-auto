@@ -91,10 +91,11 @@ async function postForVenue(v) {
   console.log(`[${v.key}] ✅ 投稿成功 [${pick.id}] 画像=${img ? img.rel : 'なし'} 残=${remaining}/${bank.length}`);
 }
 
-let ok = 0, fail = 0, skip = 0;
-for (const v of cfg.venues) {
+const active = cfg.venues.filter((v) => v.enabled !== false);
+console.log(`稼働会場: ${active.map((v) => v.key).join(', ') || '(なし)'}`);
+let ok = 0, fail = 0;
+for (const v of active) {
   try {
-    const before = process.exitCode;
     await postForVenue(v);
     ok++;
   } catch (e) {
@@ -102,5 +103,5 @@ for (const v of cfg.venues) {
     console.error(`[${v.key}] ❌ 失敗: ${e.message}`);
   }
 }
-console.log(`\n=== 完了: 成功${ok} / 失敗${fail}（会場数${cfg.venues.length}）===`);
+console.log(`\n=== 完了: 成功${ok} / 失敗${fail}（稼働会場${active.length}/${cfg.venues.length}）===`);
 if (fail > 0) process.exit(1);
