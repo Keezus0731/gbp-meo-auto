@@ -75,15 +75,25 @@ async function postForVenue(v) {
     console.log(`    ${pick.title}`);
     return;
   }
-  const { token } = await client.getAccessToken();
   const url = `https://mybusiness.googleapis.com/v4/${v.locationParent}/localPosts`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify(post),
-  });
-  const text = await res.text();
-  if (!res.ok) throw new Error(`${res.status} ${text.slice(0, 300)}`);
+  // GBP APIは稀に一時エラー(429/5xx)を返すのでリトライ（指数バックオフ）
+  let text, lastErr;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    const { token } = await client.getAccessToken();
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify(post),
+    });
+    text = await res.text();
+    if (res.ok) { lastErr = null; break; }
+    lastErr = `${res.status} ${text.slice(0, 200)}`;
+    const transient = res.status === 429 || res.status >= 500;
+    if (!transient || attempt === 4) throw new Error(lastErr);
+    const waitMs = 3000 * attempt;
+    console.warn(`[${v.key}] 一時エラー(${res.status}) ${attempt}回目 → ${waitMs}ms後リトライ`);
+    await new Promise((r) => setTimeout(r, waitMs));
+  }
 
   history.push({ id: pick.id, postedAt: new Date().toISOString(), theme: pick.theme, type: pick.type, image: img ? img.rel : null, recycled });
   fs.writeFileSync(histPath, JSON.stringify(history, null, 2) + '\n');
