@@ -22,5 +22,13 @@
     "type": "top",
     "image": "dress/dress-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-top-food-course",
+    "postedAt": "2026-07-13T01:03:37.988Z",
+    "theme": "food",
+    "type": "top",
+    "image": "food/food-02.jpg",
+    "recycled": false
   }
 ]
