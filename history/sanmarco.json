@@ -30,5 +30,13 @@
     "type": "top",
     "image": "food/food-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-top-photo-spot",
+    "postedAt": "2026-07-16T01:00:49.862Z",
+    "theme": "photo",
+    "type": "top",
+    "image": "photo/photo-03.jpg",
+    "recycled": false
   }
 ]
