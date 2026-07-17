@@ -1,0 +1,11 @@
+{
+  "account": "accounts/100251145736403740058",
+  "venues": [
+    { "key": "duclass",     "name": "デュクラス大阪",             "locationParent": "accounts/100251145736403740058/locations/14170840470892160703" },
+    { "key": "primrose",    "name": "プリムローズ岡山",           "locationParent": "accounts/100251145736403740058/locations/6959896544145872246" },
+    { "key": "verger",      "name": "ヴェルジェくらしき",         "locationParent": "accounts/100251145736403740058/locations/12651558481311270473" },
+    { "key": "nd-yokohama", "name": "ノートルダム横浜みなとみらい", "locationParent": "accounts/100251145736403740058/locations/5458214958999633331" },
+    { "key": "angelica",    "name": "アンジェリカノートルダム",     "locationParent": "accounts/100251145736403740058/locations/6644114143985419236" },
+    { "key": "sanmarco",    "name": "アモーレヴォレ サンマルコ",   "locationParent": "accounts/100251145736403740058/locations/17625506632478854938" }
+  ]
+}

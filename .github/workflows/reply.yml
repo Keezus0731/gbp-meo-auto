@@ -1,0 +1,45 @@
+name: GBP 6会場 口コミ自動返信
+
+on:
+  schedule:
+    # 毎日。星のみ評価に定型文で自動返信。UTC基準・00分はドロップされやすいので分をズラす。
+    # GitHub内蔵cronはこのリポジトリで不発の実績があるため、cron-job.orgの日次トリガーが主。これは保険。
+    - cron: "17 2 * * *"  # 11:17 JST（主）
+    - cron: "17 5 * * *"  # 14:17 JST（保険）
+  workflow_dispatch: {} # 手動実行用
+
+permissions:
+  contents: write # replied/ flagged/ をコミットするため
+
+concurrency:
+  group: gbp-reply
+  cancel-in-progress: false
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install --no-audit --no-fund
+      - name: 自動返信を実行
+        env:
+          GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+          MAX_REPLIES: "15" # 1会場1回の返信上限（超過分は翌日に自動で持ち越し＝取りこぼしなし）
+        run: node reply.js
+      - name: 記録をコミット
+        run: |
+          git config user.name "gbp-auto-bot"
+          git config user.email "actions@github.com"
+          git add replied flagged
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: 口コミ返信記録を更新 [skip ci]"
+            git pull --rebase origin main || true
+            git push
+          else
+            echo "記録に変更なし"
+          fi
