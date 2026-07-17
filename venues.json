@@ -5,7 +5,7 @@
     {
       "key": "primrose",
       "name": "プリムローズ岡山",
-      "enabled": false,
+      "enabled": true,
       "locationParent": "accounts/100251145736403740058/locations/6959896544145872246",
       "cta": {
         "top": "https://space.fivestar-wedding.com/primrose-okayama/?utm_source=google&utm_medium=maps&utm_campaign=meo",
@@ -15,7 +15,7 @@
     {
       "key": "verger",
       "name": "ヴェルジェくらしき",
-      "enabled": false,
+      "enabled": true,
       "locationParent": "accounts/100251145736403740058/locations/12651558481311270473",
       "cta": {
         "top": "https://space.fivestar-wedding.com/verger-kurashiki/?utm_source=google&utm_medium=maps&utm_campaign=meo",
@@ -25,7 +25,7 @@
     {
       "key": "nd-yokohama",
       "name": "ノートルダム横浜みなとみらい",
-      "enabled": false,
+      "enabled": true,
       "locationParent": "accounts/100251145736403740058/locations/5458214958999633331",
       "cta": {
         "top": "https://space.fivestar-wedding.com/nd-yokohama/?utm_source=google&utm_medium=maps&utm_campaign=meo",
@@ -45,7 +45,7 @@
     {
       "key": "angelica",
       "name": "アンジェリカノートルダム",
-      "enabled": false,
+      "enabled": true,
       "locationParent": "accounts/100251145736403740058/locations/6644114143985419236",
       "cta": {
         "top": "https://space.fivestar-wedding.com/nd-sakai/?utm_source=google&utm_medium=maps&utm_campaign=meo",
