@@ -28,7 +28,13 @@ function pickImageUrl(key, theme, history) {
   if (!base) return null;
   const dir = path.join(DIR, 'images', key, theme);
   if (!fs.existsSync(dir)) return null;
-  const files = fs.readdirSync(dir).filter((f) => /\.(jpe?g|png|webp)$/i.test(f));
+  let files = fs.readdirSync(dir).filter((f) => /\.(jpe?g|png|webp)$/i.test(f));
+  // 版権期限付き画像（ファイル名に exp<YYYYMMDD>）は期限日を過ぎたら投稿に使わない。
+  // 例: chapel-exp20270430-01.jpg は 2027-04-30 まで使用可、それ以降は自動的に除外。
+  files = files.filter((f) => {
+    const m = f.match(/exp(\d{4})(\d{2})(\d{2})/);
+    return !m || todayJST <= `${m[1]}-${m[2]}-${m[3]}`;
+  });
   if (!files.length) return null;
   const lastImg = history.length ? history[history.length - 1].image : null;
   const cands = files.length > 1 && lastImg ? files.filter((f) => `${theme}/${f}` !== lastImg) : files;
