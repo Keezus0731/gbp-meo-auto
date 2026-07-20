@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "id": "p-top-dress-import",
+    "postedAt": "2026-07-20T11:30:25.822Z",
+    "theme": "dress",
+    "type": "top",
+    "image": "dress/dress-01.jpg",
+    "recycled": false
+  }
+]
