@@ -6,5 +6,13 @@
     "type": "top",
     "image": "chapel/chapel-exp20270430-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "a-top-venue-town",
+    "postedAt": "2026-07-23T01:00:54.325Z",
+    "theme": "venue",
+    "type": "top",
+    "image": "venue/venue-06.jpg",
+    "recycled": false
   }
 ]

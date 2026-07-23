@@ -6,5 +6,13 @@
     "type": "top",
     "image": "venue/venue-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-top-chapel-two",
+    "postedAt": "2026-07-23T01:00:50.637Z",
+    "theme": "chapel",
+    "type": "top",
+    "image": "chapel/chapel-20.jpg",
+    "recycled": false
   }
 ]
