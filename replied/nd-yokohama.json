@@ -2733,5 +2733,11 @@
     "reviewId": "AbFvOqlmiw9ch6GwFR1YJii-NIXns64HSMttszvns1xoKbie0EItsEwTZ8SKBdWvFgrDWXD3N79l_w",
     "seededAt": "2026-07-18",
     "note": "既存(新着のみ対象のため対象外)"
+  },
+  {
+    "reviewId": "AbFvOqmxQ0VFVm8FvCS9Efja9GBxXcUfrAozcVrUAfRa612659f3nP9kuvBGsls_T3blL0AlnJYLVQ",
+    "rating": 3,
+    "repliedAt": "2026-07-27T02:01:04.090Z",
+    "template": "neutral"
   }
 ]
