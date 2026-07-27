@@ -54,5 +54,13 @@
     "type": "top",
     "image": "access/access-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-top-venue-music",
+    "postedAt": "2026-07-27T01:00:52.399Z",
+    "theme": "venue",
+    "type": "top",
+    "image": "venue/venue-08.jpg",
+    "recycled": false
   }
 ]
