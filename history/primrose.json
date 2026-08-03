@@ -30,5 +30,13 @@
     "type": "top",
     "image": "venue/venue-20.jpg",
     "recycled": false
+  },
+  {
+    "id": "p-top-photo-spot",
+    "postedAt": "2026-08-03T01:00:48.413Z",
+    "theme": "photo",
+    "type": "top",
+    "image": "photo/photo-28.jpg",
+    "recycled": false
   }
 ]

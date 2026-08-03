@@ -30,5 +30,13 @@
     "type": "top",
     "image": "food/food-06.jpg",
     "recycled": false
+  },
+  {
+    "id": "a-top-photo-stairs",
+    "postedAt": "2026-08-03T01:00:55.700Z",
+    "theme": "photo",
+    "type": "top",
+    "image": "photo/photo-03.jpg",
+    "recycled": false
   }
 ]
