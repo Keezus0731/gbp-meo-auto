@@ -38,5 +38,13 @@
     "type": "top",
     "image": "photo/photo-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-top-hospitality-oricon",
+    "postedAt": "2026-08-06T01:00:51.690Z",
+    "theme": "hospitality",
+    "type": "top",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]

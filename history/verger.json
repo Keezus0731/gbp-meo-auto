@@ -38,5 +38,13 @@
     "type": "top",
     "image": "venue/venue-11.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-top-hospitality-oricon",
+    "postedAt": "2026-08-06T01:00:49.626Z",
+    "theme": "hospitality",
+    "type": "top",
+    "image": "hospitality/hospitality-03.jpg",
+    "recycled": false
   }
 ]
