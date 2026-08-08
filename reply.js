@@ -134,4 +134,11 @@ for (const v of cfg.venues) {
 }
 console.log(`\n=== 完了: 自動返信 計${totalR}件 / 要手動 計${totalF}件 / 失敗会場${fail} ===`);
 if (totalF > 0) console.log('低評価コメントは flagged/<会場>.json に記録。人が手動で返信してください。');
-if (fail > 0) process.exit(1);
+// 一部会場の一時的エラー(例: Google API 503)は翌日以降の実行で自動回復し、新着のみモードのため取りこぼしも無い。
+// そのため「全会場が失敗」した場合(＝認証切れ等の systemic な異常)のみ異常終了して通知する。
+if (fail >= cfg.venues.length) {
+  console.error('❌ 全会場で失敗＝systemicな異常の可能性(認証切れ等)。要確認。');
+  process.exit(1);
+} else if (fail > 0) {
+  console.log(`⚠️ ${fail}会場が一時エラー。翌日以降の実行で自動回復します(新着のみモードのため取りこぼしなし)。正常終了扱い。`);
+}
