@@ -46,5 +46,13 @@
     "type": "top",
     "image": "hospitality/hospitality-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-top-access",
+    "postedAt": "2026-08-10T01:00:46.508Z",
+    "theme": "access",
+    "type": "top",
+    "image": "access/access-01.jpg",
+    "recycled": false
   }
 ]
