@@ -94,5 +94,13 @@
     "type": "top",
     "image": "chapel/chapel-06.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-top-small-family",
+    "postedAt": "2026-08-13T01:00:59.452Z",
+    "theme": "small",
+    "type": "top",
+    "image": "small/small-01.jpg",
+    "recycled": false
   }
 ]
