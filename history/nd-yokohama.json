@@ -62,5 +62,13 @@
     "type": "top",
     "image": "venue/venue-16.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-top-dress-japanese",
+    "postedAt": "2026-08-17T01:00:49.868Z",
+    "theme": "dress",
+    "type": "top",
+    "image": "dress/dress-10.jpg",
+    "recycled": false
   }
 ]

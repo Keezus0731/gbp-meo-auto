@@ -102,5 +102,13 @@
     "type": "top",
     "image": "small/small-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-top-hospitality-planner",
+    "postedAt": "2026-08-17T01:00:51.483Z",
+    "theme": "hospitality",
+    "type": "top",
+    "image": "hospitality/hospitality-02.jpg",
+    "recycled": false
   }
 ]
