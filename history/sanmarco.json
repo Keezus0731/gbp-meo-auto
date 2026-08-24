@@ -118,5 +118,13 @@
     "type": "top",
     "image": "venue/venue-07.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-tasting",
+    "postedAt": "2026-08-24T01:00:49.061Z",
+    "theme": "food",
+    "type": "fair",
+    "image": "food/food-02.jpg",
+    "recycled": false
   }
 ]
