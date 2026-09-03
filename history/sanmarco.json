@@ -142,5 +142,13 @@
     "type": "fair",
     "image": "chapel/chapel-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-venezia-view",
+    "postedAt": "2026-09-03T01:00:51.443Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-03.jpg",
+    "recycled": false
   }
 ]

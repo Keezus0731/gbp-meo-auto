@@ -102,5 +102,13 @@
     "type": "top",
     "image": "small/small-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-top-hospitality-planner",
+    "postedAt": "2026-09-03T01:00:50.183Z",
+    "theme": "hospitality",
+    "type": "top",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]
