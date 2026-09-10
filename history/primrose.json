@@ -118,5 +118,13 @@
     "type": "top",
     "image": "venue/venue-15.jpg",
     "recycled": false
+  },
+  {
+    "id": "p-fair-tasting",
+    "postedAt": "2026-09-10T01:00:44.330Z",
+    "theme": "food",
+    "type": "fair",
+    "image": "food/food-05.jpg",
+    "recycled": false
   }
 ]
