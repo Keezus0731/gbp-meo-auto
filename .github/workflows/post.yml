@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: "20"
       - run: npm install --no-audit --no-fund
+      - name: バンク自動補充（残り少の会場のみ・テンプレ×事実データ）
+        run: node refill.js
       - name: 全会場へ投稿
         env:
           GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
@@ -35,9 +37,9 @@ jobs:
         run: |
           git config user.name "gbp-auto-bot"
           git config user.email "actions@github.com"
-          if ! git diff --quiet history/; then
-            git add history/
-            git commit -m "chore: 投稿履歴を更新 [skip ci]"
+          if ! git diff --quiet history/ bank/; then
+            git add history/ bank/
+            git commit -m "chore: 投稿履歴・バンクを更新 [skip ci]"
             git push
           else
             echo "履歴に変更なし"

@@ -30,3 +30,10 @@ GBP_CLIENT_ID / GBP_CLIENT_SECRET / GBP_REFRESH_TOKEN（全会場共通）
 - CTA は type 別（fair/plan/chapel/photo/bestrate/access/line/top）。line は友だち追加URL（lin.ee）が届いたら venues.json の cta.line を差し替える。
 - 大橋様が毎週金曜に手動投稿（フェア告知）。自動は月木なので重複しない。
 - 画像は images/mirabell/<theme>/（公式サイトから取得・1200px化）。
+
+### バンク自動補充（refill.js / 2026-09-12）
+- post.yml の投稿ステップ前に `node refill.js` が走る。`refill/<key>.templates.js` と `refill/<key>.facts.json` がある会場だけ対象（現状 mirabell）。
+- 未投稿が **4本未満** になったら、次の月木 **8本** を自動生成して bank に追記（id は `auto-YYYYMMDD-<テンプレ>`）。投稿はこれまで通り scheduled 順。
+- 生成は「テンプレ10種 × facts.json の事実」だけ。式場の運用・実績は書かない。プランは挙式時期が過ぎたものを自動で除外。月ごとの季節の一言を冒頭に付ける。
+- **価格や特典が変わったら facts.json を直す**（テンプレは触らなくてよい）。新しい話題を足すときは templates.js に1件追加。
+- 手元確認：`DRY_RUN=1 node refill.js`。しきい値・本数は `REFILL_MIN_REMAIN` / `REFILL_ADD_COUNT` で変更可。
