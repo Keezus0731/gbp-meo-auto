@@ -41,7 +41,7 @@ export const templates = [
   {
     key: 'small',
     type: 'plan', theme: 'small',
-    build: (f, s) => {
+    build: (f, s, ctx = {}) => {
       const a = f.plans.find((p) => p.key === 'small-meal'), b = f.plans.find((p) => p.key === 'small-party');
       return {
         title: `【${pick(f.area, ctx.seed)}の少人数結婚式】親族だけの挙式とお食事会`,
