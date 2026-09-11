@@ -51,6 +51,22 @@
         "top": "https://space.fivestar-wedding.com/nd-sakai/?utm_source=google&utm_medium=maps&utm_campaign=meo",
         "fair": "https://nd-sakai.fuwel.wedding/fair?utm_source=google&utm_medium=maps&utm_campaign=meo"
       }
+    },
+    {
+      "key": "mirabell",
+      "name": "ネオス・ミラベル",
+      "enabled": true,
+      "locationParent": "accounts/100251145736403740058/locations/1468532429439566493",
+      "cta": {
+        "top": "https://www.mirabell.jp/?utm_source=google&utm_medium=maps&utm_campaign=meo",
+        "fair": "https://www.mirabell.jp/bridalfair/?utm_source=google&utm_medium=maps&utm_campaign=meo",
+        "plan": "https://www.mirabell.jp/plan/?utm_source=google&utm_medium=maps&utm_campaign=meo",
+        "chapel": "https://www.mirabell.jp/facilities/chapel/?utm_source=google&utm_medium=maps&utm_campaign=meo",
+        "photo": "https://www.mirabell.jp/lp-photowedding/?utm_source=google&utm_medium=maps&utm_campaign=meo",
+        "bestrate": "https://www.mirabell.jp/bestrate/?utm_source=google&utm_medium=maps&utm_campaign=meo",
+        "access": "https://www.mirabell.jp/access/?utm_source=google&utm_medium=maps&utm_campaign=meo",
+        "line": "https://page.line.me/tgc0962a"
+      }
     }
   ]
 }

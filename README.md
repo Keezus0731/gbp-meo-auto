@@ -22,3 +22,11 @@ GBP_CLIENT_ID / GBP_CLIENT_SECRET / GBP_REFRESH_TOKEN（全会場共通）
 - バンク補充：`bank/<key>.json` に追記。
 - 画像：`images/<key>/<theme>/` に配置し、リポジトリ Variables に `IMAGE_BASE_URL` を設定（raw配信のため公開リポジトリ化が必要）。
 - 手動実行：Actions → Run workflow。
+
+
+## ネオス・ミラベル（2026-09-12 追加）
+- key=`mirabell`、locationParent=`accounts/100251145736403740058/locations/1468532429439566493`
+- bank/mirabell.json は **scheduled（YYYY-MM-DD）付き**。post.js は「今日以前で最古の未投稿」を選び、未来日のみ残っている日はスキップ（バンク再利用もしない）。10/29 分まで投入済み → 11月分は10月中旬に追加すること。
+- CTA は type 別（fair/plan/chapel/photo/bestrate/access/line/top）。line は友だち追加URL（lin.ee）が届いたら venues.json の cta.line を差し替える。
+- 大橋様が毎週金曜に手動投稿（フェア告知）。自動は月木なので重複しない。
+- 画像は images/mirabell/<theme>/（公式サイトから取得・1200px化）。

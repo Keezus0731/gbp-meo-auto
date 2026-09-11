@@ -55,8 +55,16 @@ async function postForVenue(v) {
   }
 
   const used = new Set(history.map((h) => h.id));
-  let pick = bank.find((p) => !used.has(p.id));
+  // scheduled(YYYY-MM-DD)付きの投稿は「その日以降で最も古い未投稿」を優先し、それが無ければ通常の先頭未使用へ。
+  // 未来日のscheduled投稿は飛ばす（例: 9/29のフォト特典告知を9/15に出さない）。
+  const dated = bank.filter((p) => p.scheduled && !used.has(p.id) && p.scheduled <= todayJST).sort((a, b) => a.scheduled.localeCompare(b.scheduled));
+  let pick = dated[0] || bank.find((p) => !used.has(p.id) && !p.scheduled);
   let recycled = false;
+  if (!pick && bank.some((p) => p.scheduled && !used.has(p.id))) {
+    // 未投稿の予定投稿が残っているが、まだ公開日前 → 今日は投稿しない（バンク再利用もしない）
+    console.log(`[${v.key}] 予定日前の投稿のみ残っているため本日はスキップ`);
+    return;
+  }
   if (!pick) {
     recycled = true;
     const last = {};
@@ -67,7 +75,8 @@ async function postForVenue(v) {
 
   const img = pickImageUrl(v.key, pick.theme, history);
   const summary = `${pick.title}\n\n${pick.body}`.slice(0, 1490);
-  const ctaUrl = pick.type === 'fair' ? v.cta.fair : v.cta.top;
+  // CTAは type と同名のキーがあればそれ、無ければ fair→fair / それ以外→top（既存会場の挙動を維持）
+  const ctaUrl = v.cta[pick.type] || (pick.type === 'fair' ? v.cta.fair : v.cta.top);
   const post = {
     languageCode: cfg.languageCode || 'ja',
     summary,
