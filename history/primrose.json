@@ -126,5 +126,13 @@
     "type": "fair",
     "image": "food/food-05.jpg",
     "recycled": false
+  },
+  {
+    "id": "p-fair-dress-try",
+    "postedAt": "2026-09-14T01:00:50.139Z",
+    "theme": "dress",
+    "type": "fair",
+    "image": "dress/dress-01.jpg",
+    "recycled": false
   }
 ]

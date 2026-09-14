@@ -166,5 +166,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-weekday",
+    "postedAt": "2026-09-14T01:00:54.325Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-02.jpg",
+    "recycled": false
   }
 ]
