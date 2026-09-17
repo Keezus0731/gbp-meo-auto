@@ -134,5 +134,13 @@
     "type": "fair",
     "image": "dress/dress-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "p-fair-mock",
+    "postedAt": "2026-09-17T01:00:42.561Z",
+    "theme": "chapel",
+    "type": "fair",
+    "image": "chapel/chapel-09.jpg",
+    "recycled": false
   }
 ]

@@ -174,5 +174,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-firsttime",
+    "postedAt": "2026-09-17T01:00:47.099Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]
