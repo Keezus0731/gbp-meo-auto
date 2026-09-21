@@ -182,5 +182,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-family",
+    "postedAt": "2026-09-21T01:00:50.016Z",
+    "theme": "small",
+    "type": "fair",
+    "image": "small/small-02.jpg",
+    "recycled": false
   }
 ]

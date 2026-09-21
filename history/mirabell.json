@@ -6,5 +6,13 @@
     "type": "fair",
     "image": "chapel/chapel-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-02-line-hospitality",
+    "postedAt": "2026-09-21T01:00:53.101Z",
+    "theme": "hospitality",
+    "type": "line",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]

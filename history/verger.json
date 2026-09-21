@@ -142,5 +142,13 @@
     "type": "fair",
     "image": "chapel/chapel-08.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-photo-bikan",
+    "postedAt": "2026-09-21T01:00:47.312Z",
+    "theme": "photo",
+    "type": "fair",
+    "image": "photo/photo-05.jpg",
+    "recycled": false
   }
 ]

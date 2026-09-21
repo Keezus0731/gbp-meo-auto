@@ -142,5 +142,13 @@
     "type": "fair",
     "image": "chapel/chapel-exp20270430-08.jpg",
     "recycled": false
+  },
+  {
+    "id": "a-fair-town-tour",
+    "postedAt": "2026-09-21T01:00:51.723Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-05.jpg",
+    "recycled": false
   }
 ]

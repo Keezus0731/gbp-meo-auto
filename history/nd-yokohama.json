@@ -142,5 +142,13 @@
     "type": "fair",
     "image": "chapel/chapel-11.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-fair-ocean-view",
+    "postedAt": "2026-09-21T01:00:48.635Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-11.jpg",
+    "recycled": false
   }
 ]
