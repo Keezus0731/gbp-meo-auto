@@ -150,5 +150,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "p-fair-weekend",
+    "postedAt": "2026-09-24T01:00:44.824Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-04.jpg",
+    "recycled": false
   }
 ]

@@ -14,5 +14,13 @@
     "type": "line",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-03-plan-venue",
+    "postedAt": "2026-09-24T01:00:51.653Z",
+    "theme": "venue",
+    "type": "plan",
+    "image": "venue/venue-03.jpg",
+    "recycled": false
   }
 ]

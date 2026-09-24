@@ -150,5 +150,13 @@
     "type": "fair",
     "image": "venue/venue-05.jpg",
     "recycled": false
+  },
+  {
+    "id": "a-fair-quick60",
+    "postedAt": "2026-09-24T01:00:50.523Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-exp20270430-03.jpg",
+    "recycled": false
   }
 ]
