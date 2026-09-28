@@ -198,5 +198,13 @@
     "type": "fair",
     "image": "venue/venue-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-online",
+    "postedAt": "2026-09-28T01:00:55.068Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-02.jpg",
+    "recycled": false
   }
 ]

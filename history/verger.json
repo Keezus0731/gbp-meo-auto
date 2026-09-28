@@ -158,5 +158,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-04.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-weekend",
+    "postedAt": "2026-09-28T01:00:52.168Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-21.jpg",
+    "recycled": false
   }
 ]

@@ -22,5 +22,13 @@
     "type": "plan",
     "image": "venue/venue-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-04-fair-food",
+    "postedAt": "2026-09-28T01:00:57.370Z",
+    "theme": "food",
+    "type": "fair",
+    "image": "food/food-04.jpg",
+    "recycled": false
   }
 ]

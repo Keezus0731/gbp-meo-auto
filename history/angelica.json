@@ -158,5 +158,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-exp20270430-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "a-fair-budget",
+    "postedAt": "2026-09-28T01:00:56.226Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-exp20270430-01.jpg",
+    "recycled": false
   }
 ]
