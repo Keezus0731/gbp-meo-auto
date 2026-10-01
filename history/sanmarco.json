@@ -206,5 +206,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-hurry",
+    "postedAt": "2026-10-01T01:00:44.671Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]

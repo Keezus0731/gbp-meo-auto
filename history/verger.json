@@ -166,5 +166,13 @@
     "type": "fair",
     "image": "venue/venue-21.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-budget",
+    "postedAt": "2026-10-01T01:00:42.333Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-05.jpg",
+    "recycled": false
   }
 ]

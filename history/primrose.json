@@ -166,5 +166,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-05.jpg",
     "recycled": false
+  },
+  {
+    "id": "p-fair-weekday",
+    "postedAt": "2026-10-01T01:00:41.162Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-02.jpg",
+    "recycled": false
   }
 ]

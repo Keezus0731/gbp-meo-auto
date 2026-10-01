@@ -30,5 +30,13 @@
     "type": "fair",
     "image": "food/food-04.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-05-photo-photo",
+    "postedAt": "2026-10-01T01:00:47.202Z",
+    "theme": "photo",
+    "type": "photo",
+    "image": "photo/photo-01.jpg",
+    "recycled": false
   }
 ]
