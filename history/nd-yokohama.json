@@ -174,5 +174,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-fair-firsttime",
+    "postedAt": "2026-10-05T01:00:50.350Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]

@@ -214,5 +214,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-benefit",
+    "postedAt": "2026-10-05T01:00:51.849Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-04.jpg",
+    "recycled": false
   }
 ]

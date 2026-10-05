@@ -38,5 +38,13 @@
     "type": "photo",
     "image": "photo/photo-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-06-bestrate-venue",
+    "postedAt": "2026-10-05T01:00:55.127Z",
+    "theme": "venue",
+    "type": "bestrate",
+    "image": "venue/venue-02.jpg",
+    "recycled": false
   }
 ]

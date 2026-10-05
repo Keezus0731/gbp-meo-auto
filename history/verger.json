@@ -174,5 +174,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-05.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-weekday",
+    "postedAt": "2026-10-05T01:00:48.694Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-03.jpg",
+    "recycled": false
   }
 ]
