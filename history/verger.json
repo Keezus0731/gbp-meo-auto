@@ -182,5 +182,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-firsttime",
+    "postedAt": "2026-10-08T01:00:48.589Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-05.jpg",
+    "recycled": false
   }
 ]

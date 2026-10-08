@@ -46,5 +46,13 @@
     "type": "bestrate",
     "image": "venue/venue-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-07-plan-venue",
+    "postedAt": "2026-10-08T01:00:55.022Z",
+    "theme": "venue",
+    "type": "plan",
+    "image": "venue/venue-01.jpg",
+    "recycled": false
   }
 ]

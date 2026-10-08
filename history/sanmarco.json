@@ -222,5 +222,13 @@
     "type": "fair",
     "image": "venue/venue-04.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-photo",
+    "postedAt": "2026-10-08T01:00:51.679Z",
+    "theme": "photo",
+    "type": "fair",
+    "image": "photo/photo-02.jpg",
+    "recycled": false
   }
 ]

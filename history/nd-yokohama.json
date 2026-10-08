@@ -182,5 +182,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-fair-family",
+    "postedAt": "2026-10-08T01:00:50.088Z",
+    "theme": "small",
+    "type": "fair",
+    "image": "small/small-01.jpg",
+    "recycled": false
   }
 ]
