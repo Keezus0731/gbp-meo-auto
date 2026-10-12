@@ -230,5 +230,13 @@
     "type": "fair",
     "image": "photo/photo-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "sm-fair-three",
+    "postedAt": "2026-10-12T01:00:52.096Z",
+    "theme": "food",
+    "type": "fair",
+    "image": "food/food-02.jpg",
+    "recycled": false
   }
 ]

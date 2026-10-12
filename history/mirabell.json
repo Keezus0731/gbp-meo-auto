@@ -54,5 +54,13 @@
     "type": "plan",
     "image": "venue/venue-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-08-chapel-chapel",
+    "postedAt": "2026-10-12T01:00:56.745Z",
+    "theme": "chapel",
+    "type": "chapel",
+    "image": "chapel/chapel-01.jpg",
+    "recycled": false
   }
 ]
