@@ -79,6 +79,9 @@ async function refillVenue(v) {
       if (!lastUse.includes(t.key)) { chosen = t; ti = ti + tries + 1; break; }
     }
     if (!chosen) { chosen = templates[ti % templates.length]; ti++; }
+    // 一時停止中のテンプレ（facts.paused_templates: {key: 'YYYY-MM-DD'}）はその日付より前は使わない
+    const paused = facts.paused_templates || {};
+    if (paused[chosen.key] && date < paused[chosen.key]) { continue; }
 
     const month = String(Number(date.slice(5, 7)));
     const season = facts.seasons[month] || { line: '' };
