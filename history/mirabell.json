@@ -62,5 +62,13 @@
     "type": "chapel",
     "image": "chapel/chapel-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-09-plan-small",
+    "postedAt": "2026-10-15T01:00:56.375Z",
+    "theme": "small",
+    "type": "plan",
+    "image": "small/small-01.jpg",
+    "recycled": false
   }
 ]

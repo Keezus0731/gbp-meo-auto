@@ -198,5 +198,13 @@
     "type": "fair",
     "image": "small/small-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-coordinate",
+    "postedAt": "2026-10-15T01:00:50.915Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-04.jpg",
+    "recycled": false
   }
 ]

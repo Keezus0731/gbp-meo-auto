@@ -198,5 +198,13 @@
     "type": "fair",
     "image": "venue/venue-05.jpg",
     "recycled": false
+  },
+  {
+    "id": "y-fair-online",
+    "postedAt": "2026-10-15T01:00:52.410Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]
