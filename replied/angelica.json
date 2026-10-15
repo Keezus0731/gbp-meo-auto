@@ -1217,5 +1217,11 @@
     "rating": 4,
     "repliedAt": "2026-10-12T09:18:03.858Z",
     "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqnOMIwm01-nDkLHtIltpgW1IwdTEStVwjdQsndqsl0d5NmLDS9Iyn8ZXoXoORhWTem4DSwm2g",
+    "rating": 4,
+    "repliedAt": "2026-10-15T02:01:09.710Z",
+    "template": "positive"
   }
 ]
