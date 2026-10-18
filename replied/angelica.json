@@ -1223,5 +1223,29 @@
     "rating": 4,
     "repliedAt": "2026-10-15T02:01:09.710Z",
     "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqm394cKyUSeg3l3-zViP4zVGHR8hBDFTArktpF7U7jJdwdPZXsDFLv6hbuLuDfiSSVRey7U4g",
+    "rating": 5,
+    "repliedAt": "2026-10-18T09:40:05.031Z",
+    "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqnWwiyDd4nkeHwqsu7ZkZibcB3j92z9Vh2ge-s0vjgX5Yxgi8LBAnRGaZ-qayJ3CFwVEH4wYg",
+    "rating": 5,
+    "repliedAt": "2026-10-18T09:40:05.560Z",
+    "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqnIjEUUHyien26kXfbhlT07r_veZ5TG9tktDniSHsJlFxxmqUTGB9c0uNhatbK-biqvxmqTug",
+    "rating": 5,
+    "repliedAt": "2026-10-18T09:40:06.015Z",
+    "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqnE20eA3KtybPx8XYcT4_iVPnXZqbeNCb8EIrzNE-7f-oEkBojM-RCCQHaVLmXvunFmDANavA",
+    "rating": 5,
+    "repliedAt": "2026-10-18T09:40:06.520Z",
+    "template": "positive"
   }
 ]
