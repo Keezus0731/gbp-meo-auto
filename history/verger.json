@@ -206,5 +206,13 @@
     "type": "fair",
     "image": "venue/venue-04.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-online",
+    "postedAt": "2026-10-19T01:00:46.943Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]
