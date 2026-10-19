@@ -1247,5 +1247,17 @@
     "rating": 5,
     "repliedAt": "2026-10-18T09:40:06.520Z",
     "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqksC12dWr4AKx_z288SbNsI_S0JzZwoAX6xg70-lyTyFei2ges_05ezqj0d60-W_crC2WDg",
+    "rating": 5,
+    "repliedAt": "2026-10-19T02:01:05.872Z",
+    "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqlBlC_l7E3TtqXxDHhh-TVN-3PM7ITkLj2B2JoJjYrOr3OLa1Jou2z4J5KKpIWxT7fucEAPlQ",
+    "rating": 4,
+    "repliedAt": "2026-10-19T02:01:06.425Z",
+    "template": "positive"
   }
 ]
