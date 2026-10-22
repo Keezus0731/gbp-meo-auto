@@ -78,5 +78,13 @@
     "type": "access",
     "image": "access/access-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-11-fair-dress",
+    "postedAt": "2026-10-22T01:00:57.742Z",
+    "theme": "dress",
+    "type": "fair",
+    "image": "dress/dress-01.jpg",
+    "recycled": false
   }
 ]

@@ -214,5 +214,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-hurry",
+    "postedAt": "2026-10-22T01:00:49.942Z",
+    "theme": "hospitality",
+    "type": "fair",
+    "image": "hospitality/hospitality-05.jpg",
+    "recycled": false
   }
 ]
