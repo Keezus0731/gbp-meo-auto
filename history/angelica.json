@@ -222,5 +222,13 @@
     "type": "fair",
     "image": "venue/venue-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "a-fair-small-athome",
+    "postedAt": "2026-10-26T01:00:51.472Z",
+    "theme": "small",
+    "type": "fair",
+    "image": "small/small-09.jpg",
+    "recycled": false
   }
 ]

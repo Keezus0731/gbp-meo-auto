@@ -222,5 +222,13 @@
     "type": "fair",
     "image": "hospitality/hospitality-05.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-benefit",
+    "postedAt": "2026-10-26T01:00:46.062Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-15.jpg",
+    "recycled": false
   }
 ]

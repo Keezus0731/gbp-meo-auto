@@ -86,5 +86,13 @@
     "type": "fair",
     "image": "dress/dress-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-12-fair-venue",
+    "postedAt": "2026-10-26T01:00:52.986Z",
+    "theme": "venue",
+    "type": "fair",
+    "image": "venue/venue-04.jpg",
+    "recycled": false
   }
 ]

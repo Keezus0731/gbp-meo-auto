@@ -222,5 +222,13 @@
     "type": "fair",
     "image": "venue/venue-12.jpg",
     "recycled": false
+  },
+  {
+    "id": "p-fair-photo",
+    "postedAt": "2026-10-26T01:00:44.517Z",
+    "theme": "photo",
+    "type": "fair",
+    "image": "photo/photo-23.jpg",
+    "recycled": false
   }
 ]
