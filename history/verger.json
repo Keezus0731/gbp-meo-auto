@@ -230,5 +230,13 @@
     "type": "fair",
     "image": "venue/venue-15.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-fair-three",
+    "postedAt": "2026-10-29T01:00:49.041Z",
+    "theme": "food",
+    "type": "fair",
+    "image": "food/food-06.jpg",
+    "recycled": false
   }
 ]

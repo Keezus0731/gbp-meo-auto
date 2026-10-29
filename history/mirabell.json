@@ -94,5 +94,13 @@
     "type": "fair",
     "image": "venue/venue-04.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-13-plan-chapel",
+    "postedAt": "2026-10-29T01:00:59.460Z",
+    "theme": "chapel",
+    "type": "plan",
+    "image": "chapel/chapel-03.jpg",
+    "recycled": false
   }
 ]
