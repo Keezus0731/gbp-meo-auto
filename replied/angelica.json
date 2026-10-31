@@ -1313,5 +1313,23 @@
     "rating": 5,
     "repliedAt": "2026-10-26T02:01:02.737Z",
     "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqkPV6FzyKemIIyaNNzLTwwxystCIzizFQG42hTCSvgML9t5NQJKI-lXiMKwxbGC_JGsPCxlsA",
+    "rating": 5,
+    "repliedAt": "2026-10-31T08:28:48.227Z",
+    "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqkcYlYP18FnRwMdGYaQO-EmpeUKEKusDeezKnkybmd6ZbkL0RmMApH58bSKYtIS2c6h6vc",
+    "rating": 5,
+    "repliedAt": "2026-10-31T08:28:49.043Z",
+    "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqnlrfsVxBY-Lsf3H8PMi_6r7NDTogr7s8FmyVm9LaqQ5oNz8ewn_OApmI16qq-Dguj0IebnJg",
+    "rating": 5,
+    "repliedAt": "2026-10-31T08:28:49.604Z",
+    "template": "positive"
   }
 ]
