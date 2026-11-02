@@ -102,5 +102,13 @@
     "type": "plan",
     "image": "chapel/chapel-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "mb-14-line-hospitality",
+    "postedAt": "2026-11-02T01:00:56.861Z",
+    "theme": "hospitality",
+    "type": "line",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]

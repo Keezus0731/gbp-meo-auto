@@ -238,5 +238,13 @@
     "type": "fair",
     "image": "food/food-06.jpg",
     "recycled": false
+  },
+  {
+    "id": "v-top-chapel-blue",
+    "postedAt": "2026-11-02T01:00:47.800Z",
+    "theme": "chapel",
+    "type": "top",
+    "image": "chapel/chapel-03.jpg",
+    "recycled": true
   }
 ]

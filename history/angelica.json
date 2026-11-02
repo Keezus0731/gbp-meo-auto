@@ -238,5 +238,13 @@
     "type": "fair",
     "image": "food/food-04.jpg",
     "recycled": false
+  },
+  {
+    "id": "a-top-chapel-grand",
+    "postedAt": "2026-11-02T01:00:54.213Z",
+    "theme": "chapel",
+    "type": "top",
+    "image": "chapel/chapel-exp20270430-04.jpg",
+    "recycled": true
   }
 ]
