@@ -246,5 +246,13 @@
     "type": "top",
     "image": "chapel/chapel-exp20270430-04.jpg",
     "recycled": true
+  },
+  {
+    "id": "a-top-venue-town",
+    "postedAt": "2026-11-05T01:01:07.373Z",
+    "theme": "venue",
+    "type": "top",
+    "image": "venue/venue-exp20270430-03.jpg",
+    "recycled": true
   }
 ]

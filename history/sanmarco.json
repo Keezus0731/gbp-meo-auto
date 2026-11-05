@@ -286,5 +286,13 @@
     "type": "top",
     "image": "hospitality/hospitality-02.jpg",
     "recycled": true
+  },
+  {
+    "id": "sm-top-access",
+    "postedAt": "2026-11-05T01:01:03.921Z",
+    "theme": "access",
+    "type": "top",
+    "image": "access/access-01.jpg",
+    "recycled": true
   }
 ]

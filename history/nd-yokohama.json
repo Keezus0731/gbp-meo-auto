@@ -246,5 +246,13 @@
     "type": "top",
     "image": "venue/venue-31.jpg",
     "recycled": true
+  },
+  {
+    "id": "y-top-chapel-two",
+    "postedAt": "2026-11-05T01:01:00.620Z",
+    "theme": "chapel",
+    "type": "top",
+    "image": "chapel/chapel-10.jpg",
+    "recycled": true
   }
 ]

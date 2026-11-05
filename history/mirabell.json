@@ -110,5 +110,13 @@
     "type": "line",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "auto-20261102-small",
+    "postedAt": "2026-11-05T01:01:10.861Z",
+    "theme": "small",
+    "type": "plan",
+    "image": "small/small-01.jpg",
+    "recycled": false
   }
 ]
