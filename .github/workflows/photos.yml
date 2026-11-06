@@ -1,0 +1,43 @@
+name: GBP 6式場 写真の月次追加
+
+on:
+  schedule:
+    # 主トリガーは外部(cron-job.org)。これは保険。UTC・毎月1日 10:43 JST。
+    - cron: "43 1 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gbp-meo-photos
+  cancel-in-progress: false
+
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install --no-audit --no-fund
+      - name: 写真を追加
+        env:
+          GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
+          GBP_CLIENT_SECRET: ${{ secrets.GBP_CLIENT_SECRET }}
+          GBP_REFRESH_TOKEN: ${{ secrets.GBP_REFRESH_TOKEN }}
+        run: node photos.js
+      - name: 履歴をコミット
+        if: always()
+        run: |
+          git config user.name "gbp-auto-bot"
+          git config user.email "actions@github.com"
+          if [ -d photo-history ] && [ -n "$(git status --porcelain photo-history/)" ]; then
+            git add photo-history/
+            git commit -m "chore: 写真の追加履歴を更新 [skip ci]"
+            git pull --rebase
+            git push
+          else
+            echo "履歴に変更なし"
+          fi

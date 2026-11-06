@@ -1,0 +1,88 @@
+{
+  "_note": "毎月1日に各式場4枚を「写真」に追加する対象。日本セレモニー6式場のみ（ミラベルは対象外）。filesがある式場はその一覧から、ない式場は images/<key>/ から選ぶ。",
+  "perRun": 4,
+  "themes": [
+    "chapel",
+    "venue",
+    "food",
+    "dress",
+    "photo",
+    "hospitality",
+    "small"
+  ],
+  "venues": [
+    {
+      "key": "primrose",
+      "name": "プリムローズ岡山",
+      "locationParent": "accounts/100251145736403740058/locations/6959896544145872246",
+      "imageBase": "https://raw.githubusercontent.com/Keezus0731/gbp-meo-auto/main/images/primrose"
+    },
+    {
+      "key": "verger",
+      "name": "ヴェルジェくらしき",
+      "locationParent": "accounts/100251145736403740058/locations/12651558481311270473",
+      "imageBase": "https://raw.githubusercontent.com/Keezus0731/gbp-meo-auto/main/images/verger"
+    },
+    {
+      "key": "nd-yokohama",
+      "name": "ノートルダム横浜みなとみらい",
+      "locationParent": "accounts/100251145736403740058/locations/5458214958999633331",
+      "imageBase": "https://raw.githubusercontent.com/Keezus0731/gbp-meo-auto/main/images/nd-yokohama"
+    },
+    {
+      "key": "sanmarco",
+      "name": "アモーレヴォレ サンマルコ",
+      "locationParent": "accounts/100251145736403740058/locations/17625506632478854938",
+      "imageBase": "https://raw.githubusercontent.com/Keezus0731/gbp-meo-auto/main/images/sanmarco"
+    },
+    {
+      "key": "angelica",
+      "name": "アンジェリカノートルダム",
+      "locationParent": "accounts/100251145736403740058/locations/6644114143985419236",
+      "imageBase": "https://raw.githubusercontent.com/Keezus0731/gbp-meo-auto/main/images/angelica"
+    },
+    {
+      "key": "duclass",
+      "name": "デュクラス大阪",
+      "locationParent": "accounts/100251145736403740058/locations/14170840470892160703",
+      "imageBase": "https://raw.githubusercontent.com/Keezus0731/gbp-duclass-auto/main/images",
+      "files": [
+        "access/access-01.jpg",
+        "access/access-02.jpg",
+        "access/access-03.jpg",
+        "access/access-04.jpg",
+        "chapel/chapel-01.jpg",
+        "chapel/chapel-02.jpg",
+        "chapel/chapel-03.jpg",
+        "chapel/chapel-04.jpg",
+        "chapel/chapel-05.jpg",
+        "chapel/chapel-06.jpg",
+        "dress/dress-01.jpg",
+        "dress/dress-02.jpg",
+        "dress/dress-03.jpg",
+        "dress/dress-04.jpg",
+        "fair/fair-01.jpg",
+        "fair/fair-02.jpg",
+        "fair/fair-03.jpg",
+        "fair/fair-04.jpg",
+        "fair/fair-05.jpg",
+        "food/food-01.jpg",
+        "food/food-02.jpg",
+        "photo/photo-01.jpg",
+        "photo/photo-02.jpg",
+        "photo/photo-03.jpg",
+        "photo/photo-04.jpg",
+        "photo/photo-05.jpg",
+        "photo/photo-06.jpg",
+        "venue/venue-01.jpg",
+        "venue/venue-02.jpg",
+        "venue/venue-03.jpg",
+        "venue/venue-04.jpg",
+        "venue/venue-05.jpg",
+        "venue/venue-06.jpg",
+        "venue/venue-07.jpg",
+        "venue/venue-08.jpg"
+      ]
+    }
+  ]
+}
