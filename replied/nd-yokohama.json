@@ -2823,5 +2823,11 @@
     "rating": 3,
     "repliedAt": "2026-11-02T02:01:02.552Z",
     "template": "neutral"
+  },
+  {
+    "reviewId": "AbFvOqnKAlOhQkHdwNMH9FjMez1Os59ZIX0Caxs12P89Fy-CW65f1DzT0KgowO9857ZsJllfdoYy3A",
+    "rating": 5,
+    "repliedAt": "2026-11-07T08:51:10.336Z",
+    "template": "positive"
   }
 ]
