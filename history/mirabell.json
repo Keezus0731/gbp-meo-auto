@@ -118,5 +118,13 @@
     "type": "plan",
     "image": "small/small-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "auto-20261105-access",
+    "postedAt": "2026-11-09T01:00:59.781Z",
+    "theme": "access",
+    "type": "access",
+    "image": "access/access-02.jpg",
+    "recycled": false
   }
 ]
