@@ -126,5 +126,13 @@
     "type": "access",
     "image": "access/access-02.jpg",
     "recycled": false
+  },
+  {
+    "id": "auto-20261112-bestrate",
+    "postedAt": "2026-11-12T01:01:00.509Z",
+    "theme": "venue",
+    "type": "bestrate",
+    "image": "venue/venue-01.jpg",
+    "recycled": false
   }
 ]
