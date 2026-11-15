@@ -832,5 +832,11 @@
     "rating": 3,
     "repliedAt": "2026-11-06T05:20:21.068068Z",
     "template": "manual-positive(内容は好意的なため手動でお礼)"
+  },
+  {
+    "reviewId": "AbFvOqn1PkJ__hP_gunllpBqYwJL5bKqJMeJfkuUfTWcIqRMHYtgmOCg4poW-Wgk-y3S-YFuxF8QVQ",
+    "rating": 5,
+    "repliedAt": "2026-11-15T12:46:53.909Z",
+    "template": "positive"
   }
 ]
