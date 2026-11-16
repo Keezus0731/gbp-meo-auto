@@ -310,5 +310,13 @@
     "type": "top",
     "image": "dress/dress-01.jpg",
     "recycled": true
+  },
+  {
+    "id": "sm-top-photo-maedori",
+    "postedAt": "2026-11-16T01:01:04.660Z",
+    "theme": "photo",
+    "type": "top",
+    "image": "photo/photo-01.jpg",
+    "recycled": true
   }
 ]
