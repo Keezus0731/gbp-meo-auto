@@ -142,5 +142,13 @@
     "type": "fair",
     "image": "venue/venue-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "auto-20261119-line",
+    "postedAt": "2026-11-19T01:01:08.975Z",
+    "theme": "hospitality",
+    "type": "line",
+    "image": "hospitality/hospitality-01.jpg",
+    "recycled": false
   }
 ]
