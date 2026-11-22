@@ -1469,5 +1469,11 @@
     "rating": 5,
     "repliedAt": "2026-11-22T09:50:54.423Z",
     "template": "positive"
+  },
+  {
+    "reviewId": "AbFvOqk1QBSKmZqaPver62llrQQ6qLEBoo3w858SFTcN_3vNyMKVmhEXboyDK4MsRyLi5aWQ7fOLLA",
+    "rating": 5,
+    "repliedAt": "2026-11-22T13:24:14.379Z",
+    "template": "positive"
   }
 ]
