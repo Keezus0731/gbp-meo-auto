@@ -150,5 +150,13 @@
     "type": "line",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": false
+  },
+  {
+    "id": "auto-20261123-chapel-award",
+    "postedAt": "2026-11-23T01:01:05.718Z",
+    "theme": "chapel",
+    "type": "chapel",
+    "image": "chapel/chapel-03.jpg",
+    "recycled": false
   }
 ]

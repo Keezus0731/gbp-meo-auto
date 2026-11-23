@@ -286,5 +286,13 @@
     "type": "top",
     "image": "hospitality/hospitality-01.jpg",
     "recycled": true
+  },
+  {
+    "id": "y-top-access",
+    "postedAt": "2026-11-23T01:00:56.759Z",
+    "theme": "access",
+    "type": "top",
+    "image": "access/access-02.jpg",
+    "recycled": true
   }
 ]
