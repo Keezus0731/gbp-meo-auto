@@ -294,5 +294,13 @@
     "type": "top",
     "image": "access/access-03.jpg",
     "recycled": true
+  },
+  {
+    "id": "v-top-chapel-light",
+    "postedAt": "2026-11-26T01:00:53.911Z",
+    "theme": "chapel",
+    "type": "top",
+    "image": "chapel/chapel-06.jpg",
+    "recycled": true
   }
 ]

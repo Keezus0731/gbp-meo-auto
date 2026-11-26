@@ -158,5 +158,13 @@
     "type": "chapel",
     "image": "chapel/chapel-03.jpg",
     "recycled": false
+  },
+  {
+    "id": "auto-20261126-cuisine",
+    "postedAt": "2026-11-26T01:01:05.225Z",
+    "theme": "food",
+    "type": "fair",
+    "image": "food/food-01.jpg",
+    "recycled": false
   }
 ]
